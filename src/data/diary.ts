@@ -21,7 +21,24 @@ export const diaryEntries: DiaryEntry[] = [
   {
     "date": "2026-01-05",
     "content": "Built [VibeDiary](https://github.com/subinium/vibediary) - a personal blog for documenting AI journey and portfolio.\n\nSet up Claude Code skills and commands for VibeDiary (diary, portfolio, push).",
-    "category": "dev"
+    "category": "dev",
+    "archives": [
+      {
+        "title": "ccstatusline",
+        "url": "https://github.com/sirmalloc/ccstatusline",
+        "author": "sirmalloc"
+      },
+      {
+        "title": "ccusage",
+        "url": "https://github.com/ryoppippi/ccusage",
+        "author": "ryoppippi"
+      },
+      {
+        "title": "claude-hud",
+        "url": "https://github.com/jarrodwatts/claude-hud",
+        "author": "jarrodwatts"
+      }
+    ]
   },
   {
     "date": "2026-01-04",
