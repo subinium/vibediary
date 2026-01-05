@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm tone color palette */
+  --color-warm-50: #fdfcfb;
+  --color-warm-100: #faf6f1;
+  --color-warm-200: #f5ede3;
+  --color-warm-300: #e8dcc9;
+  --color-warm-400: #d4c4a8;
+  --color-warm-500: #b8a080;
+  --color-warm-600: #9a7d5a;
+  --color-warm-700: #7d6347;
+  --color-warm-800: #5c4a36;
+  --color-warm-900: #3d3225;
+  --color-warm-950: #1f1a13;
+
+  /* Accent colors */
+  --color-accent: #c4956a;
+  --color-accent-dark: #a67b4f;
+
+  /* Typography */
+  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-warm-50);
+  color: var(--color-warm-900);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--color-warm-300);
+  color: var(--color-warm-900);
+}
+
+a {
+  color: var(--color-warm-700);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-accent-dark);
+}
