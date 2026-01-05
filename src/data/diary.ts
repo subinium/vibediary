@@ -20,7 +20,7 @@ export interface DiaryEntry {
 export const diaryEntries: DiaryEntry[] = [
   {
     "date": "2026-01-05",
-    "content": "Built [VibeDiary](https://github.com/subinium/vibediary) - a personal blog for documenting AI journey and portfolio.\n\nSet up Claude Code skills for VibeDiary (diary, portfolio, push).",
+    "content": "Built [VibeDiary](https://github.com/subinium/vibediary) - a personal blog for documenting AI journey and portfolio.\n\nSet up Claude Code skills and commands for VibeDiary (diary, portfolio, push).",
     "category": "dev"
   },
   {
@@ -46,9 +46,8 @@ export const diaryEntries: DiaryEntry[] = [
   },
   {
     "date": "2025-12-30",
-    "content": "Created Max Verstappen Fan Video.\n\nSubscribed to [Higgsfield](https://higgsfield.ai/) Unlimited plan.",
-    "category": "creative",
-    "relatedPost": "https://x.com/subinium/status/2005899418185392457"
+    "content": "Created Max Verstappen Fan Video. ([Related post](https://x.com/subinium/status/2005899418185392457))\n\nSubscribed to [Higgsfield](https://higgsfield.ai/) Unlimited plan.",
+    "category": "creative"
   },
   {
     "date": "2025-12-29",
