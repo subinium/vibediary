@@ -55,7 +55,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Interactive blockchain research visualization tool.',
     category: 'development',
     tags: ['Blockchain', 'Visualization'],
-    github: 'https://github.com/subinium/ethviz',
+    link: 'https://ethviz.xyz',
   },
   {
     id: 'full-stack-builder',
