@@ -86,7 +86,14 @@ export const diaryEntries: DiaryEntry[] = [
   {
     "date": "2025-12-20",
     "content": "Launched a new Telegram channel: [vibenote from subinium](https://t.me/vibenotefromsubinium).",
-    "category": "dev"
+    "category": "dev",
+    "archives": [
+      {
+        "title": "oh-my-opencode",
+        "url": "https://github.com/code-yeongyu/oh-my-opencode",
+        "author": "code-yeongyu"
+      }
+    ]
   },
   {
     "date": "2025-12-07",
