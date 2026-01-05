@@ -16,7 +16,7 @@ export default function Navigation() {
       <nav className="max-w-3xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
         <NavLink
           to="/"
-          className="font-medium text-warm-900 hover:text-accent-dark transition-colors"
+          className="font-medium text-warm-900 hover:text-accent-dark transition-colors no-underline"
         >
           VibeDiary
         </NavLink>
@@ -28,7 +28,7 @@ export default function Navigation() {
               key={item.path}
               to={item.path}
               className={({ isActive }) =>
-                `text-sm transition-colors ${
+                `text-sm transition-colors no-underline ${
                   isActive
                     ? 'text-warm-900 font-medium'
                     : 'text-warm-600 hover:text-warm-800'
@@ -88,7 +88,7 @@ export default function Navigation() {
                   to={item.path}
                   onClick={() => setIsMenuOpen(false)}
                   className={({ isActive }) =>
-                    `block py-2 text-sm transition-colors ${
+                    `block py-2 text-sm transition-colors no-underline ${
                       isActive
                         ? 'text-warm-900 font-medium'
                         : 'text-warm-600 hover:text-warm-800'

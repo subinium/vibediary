@@ -44,7 +44,6 @@ export const tools: Tool[] = [
     description: 'xAI assistant with real-time knowledge',
     category: 'ai-text',
     url: 'https://grok.x.ai',
-    logo: 'https://grok.x.ai/images/grok-logo.svg',
   },
 
   // AI - Video
@@ -64,7 +63,6 @@ export const tools: Tool[] = [
     description: 'Creative AI tools for video generation',
     category: 'ai-video',
     url: 'https://runwayml.com',
-    logo: 'https://runwayml.com/favicon.ico',
   },
   {
     id: 'kling',
@@ -104,7 +102,6 @@ export const tools: Tool[] = [
     description: 'Video editing and post-production',
     category: 'editing',
     url: 'https://www.capcut.com',
-    logo: 'https://www.capcut.com/favicon.ico',
   },
 ];
 

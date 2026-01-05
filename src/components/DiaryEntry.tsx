@@ -110,7 +110,7 @@ export default function DiaryEntry({ entry, index }: Props) {
                 href={part.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-warm-800 underline decoration-warm-400 underline-offset-2 hover:decoration-accent-dark hover:text-accent-dark transition-colors"
+                className="!text-accent-dark !underline !decoration-2 underline-offset-2 hover:!text-warm-900 transition-colors"
               >
                 {getLinkIcon(part.url)}{part.text}
               </a>
@@ -123,7 +123,7 @@ export default function DiaryEntry({ entry, index }: Props) {
                 href={entry.relatedPost}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-warm-800 underline decoration-warm-400 underline-offset-2 hover:decoration-accent-dark hover:text-accent-dark transition-colors"
+                className="!text-accent-dark !underline !decoration-2 underline-offset-2 hover:!text-warm-900 transition-colors"
               >
                 {getLinkIcon(entry.relatedPost)}Related post
               </a>
@@ -149,7 +149,7 @@ export default function DiaryEntry({ entry, index }: Props) {
                       href={item.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-warm-800 underline decoration-warm-400 underline-offset-2 hover:decoration-accent-dark hover:text-accent-dark transition-colors"
+                      className="!text-accent-dark !underline !decoration-2 underline-offset-2 hover:!text-warm-900 transition-colors"
                     >
                       {getLinkIcon(item.url)}{item.title}
                     </a>

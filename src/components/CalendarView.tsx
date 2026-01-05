@@ -201,7 +201,7 @@ export default function CalendarView({ entries }: Props) {
                     href={part.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-warm-800 underline decoration-warm-400 underline-offset-2 hover:decoration-accent-dark hover:text-accent-dark transition-colors"
+                    className="!text-accent-dark !underline !decoration-2 underline-offset-2 hover:!text-warm-900 transition-colors"
                   >
                     {part.text}
                   </a>

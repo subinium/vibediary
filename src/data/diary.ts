@@ -25,14 +25,14 @@ export const diaryEntries: DiaryEntry[] = [
   },
   {
     "date": "2026-01-04",
-    "content": "Published [ローディング (Loading) Lyrics Video](https://www.youtube.com/watch?v=bg5ADVookKk) on YouTube.\n\nSubscribed to [Suno Pro](https://suno.com/) for AI music generation.",
+    "content": "Published [ローディング (Loading) Lyrics Video](https://www.youtube.com/watch?v=bg5ADVookKk) on YouTube.",
     "category": "creative",
     "thumbnail": "https://img.youtube.com/vi/bg5ADVookKk/maxresdefault.jpg",
     "thumbnailLink": "https://www.youtube.com/watch?v=bg5ADVookKk"
   },
   {
     "date": "2026-01-03",
-    "content": "Published [消えない星 (Kienai Hoshi) Music Video](https://youtu.be/QpB22Wrd_aY) on YouTube.",
+    "content": "Published [消えない星 (Kienai Hoshi) Music Video](https://youtu.be/QpB22Wrd_aY) on YouTube.\n\nSubscribed to [Suno Pro](https://suno.com/) for AI music generation.",
     "category": "creative",
     "thumbnail": "https://img.youtube.com/vi/QpB22Wrd_aY/hqdefault.jpg",
     "thumbnailLink": "https://youtu.be/QpB22Wrd_aY",

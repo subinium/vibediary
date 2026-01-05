@@ -41,10 +41,10 @@ body {
   color: var(--color-warm-900);
 }
 
+/* Default link styles */
 a {
   color: var(--color-warm-700);
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
 a:hover {
