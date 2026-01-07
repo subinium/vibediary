@@ -19,6 +19,11 @@ export interface DiaryEntry {
 
 export const diaryEntries: DiaryEntry[] = [
   {
+    "date": "2026-01-06",
+    "content": "Taught Claude Code basics to 2 colleagues at work. (The most fun part was explaining Iterm2, Homebrew, Zsh and basic terminal commands.)\n\nCurrently organizing basic development knowledge for Claude Code.",
+    "category": "dev"
+  },
+  {
     "date": "2026-01-05",
     "content": "Built [VibeDiary](https://github.com/subinium/vibediary) - a personal blog for documenting AI journey and portfolio.\n\nSet up Claude Code skills and commands for VibeDiary (diary, portfolio, push).",
     "category": "dev",
