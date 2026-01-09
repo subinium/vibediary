@@ -19,6 +19,11 @@ export interface DiaryEntry {
 
 export const diaryEntries: DiaryEntry[] = [
   {
+    "date": "2026-01-09",
+    "content": "- Deployed [tui-wordle](https://github.com/subinium/tui-wordle) | [tuiwordle.com](https://www.tuiwordle.com/)",
+    "category": "dev"
+  },
+  {
     "date": "2026-01-08",
     "content": "- Completed Claude Code curriculum draft.\n- Added [Google Search Console](https://search.google.com/search-console) to [ethviz](https://ethviz.xyz).",
     "category": "dev",

@@ -65,6 +65,15 @@ export const portfolioItems: PortfolioItem[] = [
     tags: ['Full Stack', 'Templates'],
     github: 'https://github.com/subinium/full-stack-builder',
   },
+  {
+    id: 'tui-wordle',
+    title: 'TUI Wordle',
+    description: 'Terminal-based Wordle game you can play in your browser.',
+    category: 'development',
+    tags: ['TUI', 'Game', 'Wordle'],
+    link: 'https://www.tuiwordle.com/',
+    github: 'https://github.com/subinium/tui-wordle',
+  },
 ];
 
 export const portfolioCategories = [
