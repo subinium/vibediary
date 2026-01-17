@@ -19,6 +19,11 @@ export interface DiaryEntry {
 
 export const diaryEntries: DiaryEntry[] = [
   {
+    "date": "2026-01-16",
+    "content": "Onboarded 12 team members (2-week program).",
+    "category": "dev"
+  },
+  {
     "date": "2026-01-14",
     "content": "Installed and tested [conductor](https://www.conductor.build/).",
     "category": "dev"
