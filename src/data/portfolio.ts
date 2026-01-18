@@ -74,6 +74,14 @@ export const portfolioItems: PortfolioItem[] = [
     link: 'https://www.tuiwordle.com/',
     github: 'https://github.com/subinium/tui-wordle',
   },
+  {
+    id: 'claude-code-achievements',
+    title: 'Claude Code Achievements',
+    description: 'Track and celebrate your Claude Code usage milestones with gamified achievements.',
+    category: 'development',
+    tags: ['Claude Code', 'CLI', 'Gamification'],
+    github: 'https://github.com/subinium/claude-code-achievements',
+  },
 ];
 
 export const portfolioCategories = [

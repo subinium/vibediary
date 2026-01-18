@@ -19,9 +19,50 @@ export interface DiaryEntry {
 
 export const diaryEntries: DiaryEntry[] = [
   {
+    "date": "2026-01-19",
+    "content": "",
+    "category": "dev",
+    "archives": [
+      {
+        "title": "Superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "author": "obra"
+      },
+      {
+        "title": "Claude Code Continuous Learning Skill",
+        "url": "https://github.com/blader/claude-code-continuous-learning-skill",
+        "author": "blader"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-17",
+    "content": "Created [Claude Code Achievements](https://github.com/subinium/claude-code-achievements) - a tool to track and celebrate your Claude Code usage milestones.",
+    "category": "dev"
+  },
+  {
     "date": "2026-01-16",
     "content": "Onboarded 12 team members (2-week program).",
-    "category": "dev"
+    "category": "dev",
+    "archives": [
+      {
+        "title": "Skills",
+        "url": "https://github.com/trailofbits/skills",
+        "author": "trailofbits"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "content": "",
+    "category": "dev",
+    "archives": [
+      {
+        "title": "Claude Code Showcase",
+        "url": "https://github.com/ChrisWiles/claude-code-showcase",
+        "author": "ChrisWiles"
+      }
+    ]
   },
   {
     "date": "2026-01-14",
